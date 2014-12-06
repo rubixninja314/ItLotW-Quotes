@@ -23,10 +23,10 @@ h2{
 	outline:3px solid black;
 	width:90%;
 }
-.generic.expandable{
+.generic .expandable{
 	display:none;
 }
-.expanded.expandable{
+.expanded .expandable{
 	display:block;
 }
 #magic{
