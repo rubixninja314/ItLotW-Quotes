@@ -40,6 +40,9 @@ h2{
 	-webkit-animation:texpanding .25s;
 	animation:texpanding .25s;
 }
+td:not(.expanded):only-child{
+	width:10%;
+}
 #magic{
 	background:#ffcc88;
 }
