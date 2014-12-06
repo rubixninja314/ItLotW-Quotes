@@ -6,8 +6,21 @@ h1{
 }
 h2{
 	font-family:Arial;
-	border: 3px solid black;
+}
+.generic{
+	outline:3px solid black;
+	width:50%;
+	hight:50%;
 }
 #magic{
-	background:#ffcc88;
+	background:#fc8;
+}
+#details{
+	background:#ffcccc;
+}
+#evidence{
+	background:#ccffcc;
+}
+#people{
+	background:#ccccff;
 }
