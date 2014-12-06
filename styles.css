@@ -14,11 +14,13 @@ h2{
 	height:300px;
 	margin:0% 5%;
 }
-.generic{
+.genericNew, .generic{
 	outline:3px solid black;
 	min-width:10%;
 	width:50%;
 	height:50%;
+}
+.generic{
 	-webkit-animation: collapsing .25s;
 	animation:collapsing .25s;
 }
@@ -30,13 +32,13 @@ h2{
 }
 .generic .expandable{
 	display:none;
-	-webkit-animation:texpanding .25s;
-	animation:texpanding .25s;
+	-webkit-animation:tcollapsing .25s;
+	animation:tcollapsing .25s;
 }
 .expanded .expandable{
 	display:block;
-	-webkit-animation:tcoollapsing .25s;
-	animation:tcollapsing .25s;
+	-webkit-animation:texpanding .25s;
+	animation:texpanding .25s;
 }
 #magic{
 	background:#ffcc88;
@@ -50,13 +52,16 @@ h2{
 #people{
 	background:#ccccff;
 }
-.small{
+.expanded.expandable.small, .expanded.expandable.smallNew{
 	font-size:20px;
-	-webkit-animation:enlarging .17s;
-	animation:enlarging .17s;
 }
-.big{
-	font-size:50px;
+.expanded.expandable.small{
 	-webkit-animation:shrinking .17s;
 	animation:shrinking .17s;
+}
+
+.big{
+	font-size:50px;
+	-webkit-animation:enlarging .17s;
+	animation:enlarging .17s;
 }
