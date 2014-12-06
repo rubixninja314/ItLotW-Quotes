@@ -39,7 +39,7 @@
 
 
 @-webkit-keyframes btcollapsing{
-	from{font-size:50px;}
+	from{font-size:40px;}
 	to{font-size:0px;}
 }
 @keyframes btcollapsing{
@@ -50,19 +50,19 @@
 
 @-webkit-keyframes enlarging{
 	from{font-size:20px;}
-	to{font-size:50px;}
+	to{font-size:40px;}
 }
 @keyframes enlarging{
 	from{font-size:20px;}
-	to{font-size:50px;}
+	to{font-size:40px;}
 }
 
 
 @-webkit-keyframes shrinking{
-	from{font-size:50px;}
+	from{font-size:40px;}
 	to{font-size:20px;}
 }
 @keyframes shrinking{
-	from{font-size:50px;}
+	from{font-size:40px;}
 	to{font-size:20px;}
 }
