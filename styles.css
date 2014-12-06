@@ -52,10 +52,10 @@ h2{
 #people{
 	background:#ccccff;
 }
-.expanded.expandable.small, .expanded.expandable.smallNew{
+.expanded .expandable .small, .expanded .expandable .smallNew{
 	font-size:20px;
 }
-.expanded.expandable.small{
+.expanded .expandable .small{
 	-webkit-animation:shrinking .17s;
 	animation:shrinking .17s;
 }
