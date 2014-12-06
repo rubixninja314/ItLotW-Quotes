@@ -1,4 +1,4 @@
-function setupQuotes(){
+/*function setupQuotes(){
 	var cats=["magic","details","evidence","people"];
 	for(var cat=0;cat<4;cat++){
 		var quotes=document.getElementById(cats[cat]).getElementsByClassName("expandable")[0].children;
@@ -7,8 +7,8 @@ function setupQuotes(){
 			quotes[i].onclick="toggleQ("+quotes[i].id+")";
 		}
 	}
-}
-function toggleQ(id){
+}*/
+function toggleQ(thing){
 	thing.innerHTML="hello  world";
 }
 
