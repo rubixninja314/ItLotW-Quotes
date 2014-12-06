@@ -6,14 +6,25 @@ function setupQuotes(){
 		for(var i=0;i<quotes.length;i++){
 			quotes[i].id=cats[cat]+i;
 			quotes[i].addEventListener("click",function(){toggleQ(this)},false);
+			quotes[i].className="small";
 		}
 	}
 }
 function toggleQ(thing){
-	doColl=false
-	thing.innerHTML="hello  world";
+	doColl=false;
+	if(thing.className="small"){
+		shrink(document.getElementsByClassName("big")[0])
+		enlarge(thing);
+	}else{
+		shrink(thing);
+	}
 }
-
+function shrink(thing){
+	thing.className="small";
+}
+function enlarge(thing){
+	thing.className="big";
+}
 
 function toggle(id){
 	if(doColl){
