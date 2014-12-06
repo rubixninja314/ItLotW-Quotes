@@ -22,11 +22,9 @@ h2{
 	animation:abc .5s;
 }
 @-webkit-keyframes abc {
-    from {width:90%;}
     to {width:50%;}
 }
 @keyframes abc {
-    from {width:90%;}
     to {width:50%;}
 }
 .expanded{
