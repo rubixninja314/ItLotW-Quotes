@@ -5,13 +5,12 @@ function setupQuotes(){
 		for(var i=0;i<quotes.length;i++){
 			/*quotes[i].addEventListener("click",function(){
 				toggleQ(quotes[i].id);
-			})*/toggleQ(quotes[i].id);
+			})*/toggleQ(quotes[i]);
 		}
 	}
 }
-function toggleQ(id){
-	var thing = document.getElementById(id);
-	thing.innerHTML="helo world";
+function toggleQ(thing){
+	thing.innerHTML="hello world";
 }
 
 
