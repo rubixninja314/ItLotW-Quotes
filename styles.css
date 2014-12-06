@@ -10,9 +10,9 @@ h2{
 	font-family:Arial;
 }
 #grid{
-	width:100%;
+	width:90%;
 	height:300px;
-	margin:50px;
+	margin:0% 5%;
 }
 .generic{
 	outline:3px solid black;
