@@ -10,7 +10,7 @@ function setupQuotes(){
 	}
 }
 function toggleQ(thing){
-	thing.innerHTML="hello world";
+	thing.innerHTML="hello  world";
 }
 
 
