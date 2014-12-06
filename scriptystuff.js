@@ -13,7 +13,12 @@ function setupQuotes(){
 function toggleQ(thing){
 	doColl=false;
 	if(thing.className=="small"){
-		shrink(document.getElementsByClassName("big")[0])
+		var bigs=document.getElementsByClassName("big");
+		if(bigs!=null){
+			for(var i=0;i<bigs.length;i++){
+				shrink(bigs[i]);
+			}
+		}
 		enlarge(thing);
 	}else{
 		shrink(thing);
