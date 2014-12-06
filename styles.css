@@ -1,3 +1,12 @@
 body{
-	background:black;
+	background:#ffccff;
+}
+h1{
+	font-family:"Times New Roman",serif;
+}
+h2{
+	font:small-caps bold "Trebuchet",sans-serif;
+}
+#magic{
+	background:#ffcc88;
 }
