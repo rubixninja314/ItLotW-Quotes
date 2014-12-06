@@ -1,99 +1,95 @@
-body{
-	background:#ffeeff;
-}
-h1{
-	font-family:"Times New Roman",serif;
-	width:100%;
-	text-align:center;
-}
-h2{
-	font-family:Arial;
-}
-#grid{
-	width:90%;
-	margin:0% 5%;
-}
-.genericNew, .generic{
-	outline:3px solid black;
-	min-width:10%;
-	height:150px;
-}
-.generic{
-	-webkit-animation: collapsing .25s;
-	animation:collapsing .25s;
-}
-.expanded,.dexpanded{
-	outline:3px solid black;
-	width:90%;
-}
-.expanded{
-	-webkit-animation:expanding .25s;
-	animation:expanding .25s;
-}
-.dexpanded{
-	-webkit-animation:expanding .25s ease .25s;
-	animation:expanding .25s ease .25s;
-}
-.generic .expandable,.genericNew .expandable{
-	font-size:0px;
-	-webkit-animation:tcollapsing .25s;
-	animation:tcollapsing .25s;
-}
-.expanded .expandable{
-	font-size:20px;
-	margin:0px 30px;
-	-webkit-animation:texpanding .25s;
-	animation:texpanding .25s;
-}
-.dexpanded .expandable{
-	font-size:20px;
-	margin:0px 30px;
-	-webkit-animation:texpanding .25s .25s;
-	animation:texpanding .25s .25s;
-}
-#magic{
-	background:#ffcc88;
-}
-#details{
-	background:#ffcccc;
-}
-#evidence{
-	background:#ccffcc;
-}
-#people{
-	background:#ccccff;
-}
-.expanded .small, .expanded .smallNew,.dexpanded .small, .dexpanded .smallNew{
-	font-size:20px;
-}
-
-.expanded .smallNew{
-	-webkit-animation:texpanding .25s;
-	animation:texpanding .25s;
-}
-.dexpanded .smallNew{
-	-webkit-animation:texpanding .25s .25s;
-	animation:texpanding .25s .25s;
-}
-
-.generic .small{
-	-webkit-animation:tcollapsing .25s;
-	animation:tcollapsing .25s;
-}
-
-.generic .big{
-	font-size:0px;
-	-webkit-animation:btcollapsing .25s;
-	animation:btcollapsing .25s;
-}
-
-.expanded .small,.dexpanded .small{
-	-webkit-animation:shrinking .17s;
-	animation:shrinking .17s;
-}
-
-.expanded .big,.dexpanded .big{
-	font-size:40px;
-	-webkit-animation:enlarging .17s;
-	animation:enlarging .17s;
-}
+ body{
+ 	background:#ffeeff;
+ }
+ h1{
+ 	font-family:"Times New Roman",serif;
+ 	width:100%;
+ 	text-align:center;
+ }
+ h2{
+ 	font-family:Arial;
+ }
+ #grid{
+ 	width:90%;
+ 	margin:0% 5%;
+ }
+ .genericNew, .generic{
+ 	outline:3px solid black;
+ 	min-width:10%;
+ 	height:150px;
+ }
+ .generic{
+ 	-webkit-animation: collapsing .25s;
+ 	animation:collapsing .25s;
+ }
+ .expanded,.dexpanded{
+ 	outline:3px solid black;
+ 	width:90%;
+ }
+ .expanded{
+ 	-webkit-animation:expanding .25s;
+ 	animation:expanding .25s;
+ }
+ .dexpanded{
+ 	-webkit-animation:expanding .25s ease .25s;
+ 	animation:expanding .25s ease .25s;
+ }
+ .generic .expandable,.genericNew .expandable{
+ 	font-size:0px;
+ 	-webkit-animation:tcollapsing .25s;
+ 	animation:tcollapsing .25s;
+ }
+-.expanded .expandable,.dexpanded .expandable{
++.expanded .expandable{
+ 	font-size:20px;
+ 	margin:0px 30px;
+ 	-webkit-animation:texpanding .25s;
+ 	animation:texpanding .25s;
+ }
++.dexpanded .expandable{
++	font-size:20px;
++	margin:0px 30px;
++	-webkit-animation:texpanding .25s .25s;
++	animation:texpanding .25s .25s;
++}
+ #magic{
+ 	background:#ffcc88;
+ }
+ #details{
+ 	background:#ffcccc;
+ }
+ #evidence{
+ 	background:#ccffcc;
+ }
+ #people{
+ 	background:#ccccff;
+ }
+ .expanded .small, .expanded .smallNew,.dexpanded .small, .dexpanded .smallNew{
+ 	font-size:20px;
+ }
+-.expanded .smallNew,.dexpanded .smallNew{
+-	-webkit-animation:texpanding .25s;
+-	animation:texpanding .25s;
+-}
+ 
+ .generic .small{
+ 	-webkit-animation:tcollapsing .25s;
+ 	animation:tcollapsing .25s;
+ }
+ 
+ .generic .big{
+ 	font-size:0px;
+ 	-webkit-animation:btcollapsing .25s;
+ 	animation:btcollapsing .25s;
+ }
+ 
+ .expanded .small,.dexpanded .small{
+ 	-webkit-animation:shrinking .17s;
+ 	animation:shrinking .17s;
+ }
+ 
+ .expanded .big,.dexpanded .big{
+ 	font-size:40px;
+ 	-webkit-animation:enlarging .17s;
+ 	animation:enlarging .17s;
+ }
