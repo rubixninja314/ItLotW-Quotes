@@ -1,4 +1,6 @@
-
+body{
+	background:#ffeeff;
+}
 h1{
 	font-family:"Times New Roman",serif;
 	width:100%;
@@ -9,7 +11,7 @@ h2{
 }
 .generic{
 	outline:3px solid black;
-	width:50%;
+	width:750px;
 }
 #magic{
 	background:#ffcc88;
