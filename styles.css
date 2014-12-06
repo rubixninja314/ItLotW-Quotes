@@ -54,9 +54,15 @@ h2{
 	font-size:20px;
 }
 .expanded .expandable .smallNew{
-	-webkit-animation:texpanding .17s;
-	animation:texpanding .17s;
+	-webkit-animation:texpanding .25s;
+	animation:texpanding .25s;
 }
+
+.generic .expandable .smallNew{
+	-webkit-animation:tcollapsing .25s;
+	animation:tcollapsing .25s;
+}
+
 .expanded .expandable .small{
 	-webkit-animation:shrinking .17s;
 	animation:shrinking .17s;
