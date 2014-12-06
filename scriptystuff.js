@@ -33,12 +33,16 @@ function enlarge(thing){
 function toggle(id){
 	if(doColl){
 		var thing = document.getElementById(id);
-		if(thing.className!="expanded"){
-			collapse(document.getElementById("magic"));
-			collapse(document.getElementById("details"));
-			collapse(document.getElementById("evidence"));
-			collapse(document.getElementById("people"));
-			expand(thing);
+		if(thing.className=="generic"||thing.className=="genericNew"){
+			var delayed=false
+			var cats=["magic","details","evidence","people"];
+			for(var cat=0;cat<cats.length;cat++){
+				if(document.getElementById(cats[cat]).className=="expanded"){
+					delayed=true;
+					collapse(document.getElementById(cats[cat]));
+				}
+			}
+			expand(thing, delayed);
 			var quotes=document.getElementById(id).getElementsByClassName("expandable")[0].children;
 			for(var i=0;i<quotes.length;i++){
 				quotes[i].className="smallNew";
@@ -49,8 +53,9 @@ function toggle(id){
 	}
 	doColl=true;
 }
-function expand(thing){
+function expand(thing, delayed){
 	thing.className="expanded";
+	thing.className="dexpanded"
 }
 function collapse(thing){
 	thing.className="generic";
