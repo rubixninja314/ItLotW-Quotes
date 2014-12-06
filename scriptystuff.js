@@ -1,7 +1,7 @@
 var doColl=true;
 function setupQuotes(){
 	var cats=["magic","details","evidence","people"];
-	for(var cat=0;cat<4;cat++){
+	for(var cat=0;cat<cats.length;cat++){
 		var quotes=document.getElementById(cats[cat]).getElementsByClassName("expandable")[0].children;
 		for(var i=0;i<quotes.length;i++){
 			quotes[i].id=cats[cat]+i;
