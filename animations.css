@@ -1,19 +1,19 @@
 @-webkit-keyframes collapsing {
 	from {width:90%;}
-	to {width:50%;}
+	to {width:auto;}
 }
 @keyframes collapsing {
 	from {width:90%;}
-	to {width:50%;}
+	to {width:auto;}
 }
 
 
 @-webkit-keyframes expanding{
-	from{width:50%;}
+	from{width:auto;}
 	to{width:90%;}
 }
 @keyframes expanding{
-	from{width:50%;}
+	from{width:auto;}
 	to{width:90%;}
 }
 
