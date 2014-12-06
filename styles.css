@@ -32,6 +32,16 @@ h2{
 .expanded{
 	outline:3px solid black;
 	width:90%;
+	-webkit-animation:cba .5s;
+	animation:cba .5s;
+}
+@-webkit-keyframes{
+	from{width:50%;}
+	to{width:90%;}
+}
+@keyframes{
+	from{width:50%;}
+	to{width:90%;}
 }
 .generic .expandable{
 	display:none;
