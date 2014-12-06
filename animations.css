@@ -38,6 +38,16 @@
 }
 
 
+@-webkit-keyframes btcollapsing{
+	from{font-size:50px;}
+	to{font-size:0px;}
+}
+@keyframes btcollapsing{
+	from{font-size:50px;}
+	to{font-size:0px;}
+}
+
+
 @-webkit-keyframes enlarging{
 	from{font-size:20px;}
 	to{font-size:50px;}
