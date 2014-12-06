@@ -75,6 +75,7 @@ h2{
 
 .expanded .big{
 	font-size:40px;
+	margin:50px,20px;
 	-webkit-animation:enlarging .17s;
 	animation:enlarging .17s;
 }
