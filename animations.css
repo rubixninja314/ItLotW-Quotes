@@ -1,1 +1,58 @@
-	
+@-webkit-keyframes collapsing {
+	from {width:90%;}
+	to {width:50%;}
+}
+@keyframes collapsing {
+	from {width:90%;}
+	to {width:50%;}
+}
+
+
+@-webkit-keyframes expanding{
+	from{width:50%;}
+	to{width:90%;}
+}
+@keyframes expanding{
+	from{width:50%;}
+	to{width:90%;}
+}
+
+
+@-webkit-keyframes texpanding{
+	from{font-size:0px;}
+	to{font-size:20px;}
+}
+@keyframes texpanding{
+	from{font-size:0px;}
+	to{font-size:20px;}
+}
+
+
+@-webkit-keyframes tcollapsing{
+	from{font-size:20px;}
+	to{font-size:0px;}
+}
+@keyframes tcollapsing{
+	from{font-size:20px;}
+	to{font-size:0px;}
+}
+
+
+@-webkit-keyframes enlarging{
+	from{font-size:20px;}
+	to{font-size:50px;}
+}
+@keyframes enlarging{
+	from{font-size:20px;}
+	to{font-size:50px;}
+}
+
+
+@-webkit-keyframes shrinking{
+	from{font-size:50px;}
+	to{font-size:20px;}
+}
+@keyframes shrinking{
+	from{font-size:50px;}
+	to{font-size:20px;}
+}
