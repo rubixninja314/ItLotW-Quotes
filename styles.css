@@ -35,6 +35,7 @@ h2{
 }
 .expanded .expandable{
 	font-size:20px;
+	margin:0px 5px;
 	-webkit-animation:texpanding .25s;
 	animation:texpanding .25s;
 }
@@ -75,7 +76,7 @@ h2{
 }
 
 .expanded .expandable .big{
-	font-size:50px;
+	font-size:40px;
 	-webkit-animation:enlarging .17s;
 	animation:enlarging .17s;
 }
