@@ -25,12 +25,14 @@ h2{
 .expanded,.dexpanded{
 	outline:3px solid black;
 	width:90%;
+}
+.expanded{
 	-webkit-animation:expanding .25s;
 	animation:expanding .25s;
 }
 .dexpanded{
-	-webkit-animation-delay:.25s;
-	animation-delay:.25s;
+	-webkit-animation:expanding .25s ease .25s;
+	animation:expanding .25s ease .25s;
 }
 .generic .expandable,.genericNew .expandable{
 	font-size:0px;
