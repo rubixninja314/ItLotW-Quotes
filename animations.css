@@ -19,22 +19,22 @@
 
 
 @-webkit-keyframes texpanding{
-	from{font-size:0px;}
-	to{font-size:10px;}
+	from{font-size:0px;margin:0px;}
+	to{font-size:10px;margin:20px;}
 }
 @keyframes texpanding{
-	from{font-size:0px;}
-	to{font-size:20px;}
+	from{font-size:0px;margin:0px;}
+	to{font-size:20px;margin:20px;}
 }
 
 
 @-webkit-keyframes tcollapsing{
-	from{font-size:20px;}
-	to{font-size:0px;}
+	from{font-size:20px;margin:20px;}
+	to{font-size:0px;margin:0px;}
 }
 @keyframes tcollapsing{
-	from{font-size:20px;}
-	to{font-size:0px;}
+	from{font-size:20px;margin:20px;}
+	to{font-size:0px;margin:0px;}
 }
 
 
