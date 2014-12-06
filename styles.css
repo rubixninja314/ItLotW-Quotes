@@ -33,11 +33,11 @@ h2{
 	-webkit-animation:cba .5s;
 	animation:cba .5s;
 }
-@-webkit-keyframes{
+@-webkit-keyframes cba{
 	from{width:50%;}
 	to{width:90%;}
 }
-@keyframes{
+@keyframes cba{
 	from{width:50%;}
 	to{width:90%;}
 }
