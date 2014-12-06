@@ -17,7 +17,7 @@ h2{
 .genericNew, .generic{
 	outline:3px solid black;
 	min-width:10%;
-	width:50%;
+	width:10%;
 	height:50%;
 }
 .generic{
@@ -39,9 +39,6 @@ h2{
 	display:block;
 	-webkit-animation:texpanding .25s;
 	animation:texpanding .25s;
-}
-td:not(.expanded):only-child{
-	width:10%;
 }
 #magic{
 	background:#ffcc88;
