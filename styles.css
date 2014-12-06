@@ -58,7 +58,7 @@ h2{
 	animation:texpanding .25s;
 }
 
-.generic .expandable .smallNew{
+.generic .expandable .small{
 	-webkit-animation:tcollapsing .25s;
 	animation:tcollapsing .25s;
 }
