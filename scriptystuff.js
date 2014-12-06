@@ -34,10 +34,10 @@ function toggle(id){
 	if(doColl){
 		var thing = document.getElementById(id);
 		if(thing.className=="generic"||thing.className=="genericNew"){
-			var delayed=false
+			var delayed=false;
 			var cats=["magic","details","evidence","people"];
 			for(var cat=0;cat<cats.length;cat++){
-				if(document.getElementById(cats[cat]).className=="expanded"){
+				if(document.getElementById(cats[cat]).className=="expanded"||document.getElementById(cats[cat]).className=="dexpanded"){
 					delayed=true;
 					collapse(document.getElementById(cats[cat]));
 				}
