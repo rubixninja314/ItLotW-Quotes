@@ -20,9 +20,10 @@ h2{
 	height:50%;
 }
 .expanded{
+	outline:3px solid black;
 	width:90%;
 }
-.expandable{
+.generic.expandable{
 	display:none;
 }
 .expanded.expandable{
