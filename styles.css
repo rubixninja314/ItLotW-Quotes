@@ -1,11 +1,11 @@
 body{
 	background:#ffccff;
-	width:100;
-	height:100;
+	width:100%;
+	height:100%;
 }
 h1{
 	font-family:"Times New Roman",serif;
-	width:100;
+	width:100%;
 	text-align:center;
 }
 h2{
