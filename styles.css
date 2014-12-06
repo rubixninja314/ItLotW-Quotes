@@ -67,6 +67,15 @@ h2{
 	font-size:20px;
 }
 
+.expanded .smallNew{
+	-webkit-animation:texpanding .25s;
+	animation:texpanding .25s;
+}
+.dexpanded .smallNew{
+	-webkit-animation:texpanding .25s .25s;
+	animation:texpanding .25s .25s;
+}
+
 .generic .small{
 	-webkit-animation:tcollapsing .25s;
 	animation:tcollapsing .25s;
