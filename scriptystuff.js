@@ -39,6 +39,7 @@ function toggle(id){
 			collapse(document.getElementById("evidence"));
 			collapse(document.getElementById("people"));
 			expand(thing);
+			var quotes=document.getElementById(id).getElementsByClassName("expandable")[0].children;
 			for(var i=0;i<quotes.length;i++){
 				quotes[i].className="smallNew";
 			}
