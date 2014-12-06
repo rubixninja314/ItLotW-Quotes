@@ -30,6 +30,8 @@ h2{
 }
 .generic .expandable,.genericNew .expandable{
 	font-size:0px;
+}
+.generic .expandable{
 	-webkit-animation:tcollapsing .25s;
 	animation:tcollapsing .25s;
 }
