@@ -28,7 +28,7 @@ function toggle(id){
 			collapse(thing);
 		}
 	}
-	coColl=true;
+	doColl=true;
 }
 function expand(thing){
 	thing.className="expanded";
