@@ -9,7 +9,7 @@ function setupQuotes(){
 		}
 	}
 }
-toggleQ(id){
+function toggleQ(id){
 	var thing = document.getElementById(id);
 	thing.innerHTML="helo world";
 }
