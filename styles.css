@@ -63,6 +63,12 @@ h2{
 	animation:tcollapsing .25s;
 }
 
+.generic .expandable .big{
+	
+	-webkit-animation:btcollapsing .25s;
+	animation:btcollapsing .25s;
+}
+
 .expanded .expandable .small{
 	-webkit-animation:shrinking .17s;
 	animation:shrinking .17s;
