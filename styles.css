@@ -64,7 +64,7 @@ h2{
 }
 
 .generic .expandable .big{
-	
+	font-size:0px;
 	-webkit-animation:btcollapsing .25s;
 	animation:btcollapsing .25s;
 }
@@ -74,7 +74,7 @@ h2{
 	animation:shrinking .17s;
 }
 
-.big{
+.expanded .expandable .big{
 	font-size:50px;
 	-webkit-animation:enlarging .17s;
 	animation:enlarging .17s;
