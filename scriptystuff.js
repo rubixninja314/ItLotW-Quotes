@@ -7,6 +7,10 @@ function toggle(id){
 	}
 }
 function expand(thing){
+	collapse(document.getElementById("magic"));
+	collapse(document.getElementById("details"));
+	collapse(document.getElementById("evidence"));
+	collapse(document.getElementById("people"));
 	thing.className="expanded";
 }
 function collapse(thing){
