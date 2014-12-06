@@ -55,7 +55,7 @@ function toggle(id){
 }
 function expand(thing, delayed){
 	if(delayed){
-		thing.className="dexpanded";
+		thing.className="expanded";
 	}else{
 		thing.className="expanded"
 	}
