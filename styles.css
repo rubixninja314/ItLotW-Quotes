@@ -15,7 +15,7 @@
  }
  .genericNew, .generic{
  	outline:3px solid black;
- 	min-width:10%;
+ 	width:10%;
  	height:150px;
  }
  .generic{
