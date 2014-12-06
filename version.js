@@ -1,4 +1,4 @@
-var version="1.2.3.1";
+var version="1.2.4.0";
 function setVersion(){
 	document.getElementById("versionCode").innerHTML=version;
 }
