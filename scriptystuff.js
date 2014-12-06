@@ -6,13 +6,12 @@ function setupQuotes(){
 		for(var i=0;i<quotes.length;i++){
 			quotes[i].id=cats[cat]+i;
 			quotes[i].addEventListener("click",function(){toggleQ(this)},false);
-			quotes[i].className="small";
 		}
 	}
 }
 function toggleQ(thing){
 	doColl=false;
-	if(thing.className=="small"){
+	if(thing.className!="big"){
 		var bigs=document.getElementsByClassName("big");
 		if(bigs!=null){
 			for(var i=0;i<bigs.length;i++){
@@ -34,12 +33,15 @@ function enlarge(thing){
 function toggle(id){
 	if(doColl){
 		var thing = document.getElementById(id);
-		if(thing.className=="generic"){
+		if(thing.className!="expanded"){
 			collapse(document.getElementById("magic"));
 			collapse(document.getElementById("details"));
 			collapse(document.getElementById("evidence"));
 			collapse(document.getElementById("people"));
 			expand(thing);
+			for(var i=0;i<quotes.length;i++){
+				quotes[i].className="smallNew";
+			}
 		}else{
 			collapse(thing);
 		}
