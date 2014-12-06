@@ -54,8 +54,11 @@ function toggle(id){
 	doColl=true;
 }
 function expand(thing, delayed){
-	thing.className="expanded";
-	thing.className="dexpanded"
+	if(delayed){
+		thing.className="dexpanded";
+	}else{
+		thing.className="expanded"
+	}
 }
 function collapse(thing){
 	thing.className="generic";
