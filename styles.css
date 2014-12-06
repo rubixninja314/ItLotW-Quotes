@@ -29,12 +29,12 @@ h2{
 	animation:expanding .25s;
 }
 .generic .expandable,.genericNew .expandable{
-	display:none;
+	font-size:0px;
 	-webkit-animation:tcollapsing .25s;
 	animation:tcollapsing .25s;
 }
 .expanded .expandable{
-	display:block;
+	font-size:20px;
 	-webkit-animation:texpanding .25s;
 	animation:texpanding .25s;
 }
