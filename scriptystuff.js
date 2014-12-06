@@ -17,7 +17,7 @@ function toggleQ(id){
 
 function toggle(id){
 	var thing = document.getElementById(id);
-	if(thing.className="generic"){
+	if(thing.className=="generic"){
 		collapse(document.getElementById("magic"));
 		collapse(document.getElementById("details"));
 		collapse(document.getElementById("evidence"));
