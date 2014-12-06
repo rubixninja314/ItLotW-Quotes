@@ -39,11 +39,17 @@ h2{
 	-webkit-animation:tcollapsing .25s;
 	animation:tcollapsing .25s;
 }
-.expanded .expandable,.dexpanded .expandable{
+.expanded .expandable{
 	font-size:20px;
 	margin:0px 30px;
 	-webkit-animation:texpanding .25s;
 	animation:texpanding .25s;
+}
+.dexpanded .expandable{
+	font-size:20px;
+	margin:0px 30px;
+	-webkit-animation:texpanding .25s .25s;
+	animation:texpanding .25s .25s;
 }
 #magic{
 	background:#ffcc88;
@@ -59,10 +65,6 @@ h2{
 }
 .expanded .small, .expanded .smallNew,.dexpanded .small, .dexpanded .smallNew{
 	font-size:20px;
-}
-.expanded .smallNew,.dexpanded .smallNew{
-	-webkit-animation:texpanding .25s;
-	animation:texpanding .25s;
 }
 
 .generic .small{
