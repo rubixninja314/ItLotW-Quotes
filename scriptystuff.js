@@ -5,7 +5,7 @@ function setupQuotes(){
 		var quotes=document.getElementById(cats[cat]).getElementsByClassName("expandable")[0].children;
 		for(var i=0;i<quotes.length;i++){
 			quotes[i].id=cats[cat]+i;
-			quotes[i].addEventListener("click",function{toggleQ(this)},false);
+			quotes[i].addEventListener("click",function(){toggleQ(this)},false);
 		}
 	}
 }
