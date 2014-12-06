@@ -28,7 +28,7 @@ h2{
 	-webkit-animation:expanding .25s;
 	animation:expanding .25s;
 }
-.generic .expandable{
+.generic .expandable,.genericNew .expandable{
 	display:none;
 	-webkit-animation:tcollapsing .25s;
 	animation:tcollapsing .25s;
