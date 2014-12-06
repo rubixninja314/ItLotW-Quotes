@@ -36,7 +36,6 @@ h2{
 	animation:tcollapsing .25s;
 }
 .expanded .expandable{
-	font-size:20px;
 	margin:0px 30px;
 	-webkit-animation:texpanding .25s;
 	animation:texpanding .25s;
@@ -53,27 +52,28 @@ h2{
 #people{
 	background:#ccccff;
 }
-.expanded .expandable .small, .expanded .expandable .smallNew{
+.expanded .small, .expanded .smallNew{
 	font-size:20px;
+	-webkit-animation:texpanding .25s;
+	animation:texpanding .25s;
 }
-
-.generic .expandable .small{
+.generic .small{
 	-webkit-animation:tcollapsing .25s;
 	animation:tcollapsing .25s;
 }
 
-.generic .expandable .big{
+.generic .big{
 	font-size:0px;
 	-webkit-animation:btcollapsing .25s;
 	animation:btcollapsing .25s;
 }
 
-.expanded .expandable .small{
+.expanded .small{
 	-webkit-animation:shrinking .17s;
 	animation:shrinking .17s;
 }
 
-.expanded .expandable .big{
+.expanded .big{
 	font-size:40px;
 	-webkit-animation:enlarging .17s;
 	animation:enlarging .17s;
