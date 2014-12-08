@@ -45,7 +45,7 @@ function toggle(id){
 			expand(thing, delayed);
 			var quotes=document.getElementById(id).getElementsByClassName("expandable")[0].children;
 			for(var i=0;i<quotes.length;i++){
-				quotes[i].className="smallNew";
+				quotes[i].className="small";
 			}
 		}else{
 			collapse(thing);
