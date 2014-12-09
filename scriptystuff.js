@@ -1,6 +1,6 @@
 var doColl=true;
 function setupQuotes(){
-	var cats=["magic","details","evidence","people"];
+	var cats=["magic","details","evidence","people","closing"];
 	for(var cat=0;cat<cats.length;cat++){
 		var quotes=document.getElementById(cats[cat]).getElementsByClassName("expandable")[0].children;
 		for(var i=0;i<quotes.length;i++){
@@ -35,7 +35,7 @@ function toggle(id){
 		var thing = document.getElementById(id);
 		if(thing.className=="generic"||thing.className=="genericNew"){
 			var delayed=false;
-			var cats=["magic","details","evidence","people"];
+			var cats=["magic","details","evidence","people","closing"];
 			for(var cat=0;cat<cats.length;cat++){
 				if(document.getElementById(cats[cat]).className=="expanded"||document.getElementById(cats[cat]).className=="dexpanded"){
 					delayed=true;
