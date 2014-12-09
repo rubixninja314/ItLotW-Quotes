@@ -51,6 +51,9 @@ td{
 #people{
 	background:#ccccff;
 }
+#closing{
+	background:#dddddd;
+}
 .expanded .small{
 	font-size:20px;
 	margin:20px;
