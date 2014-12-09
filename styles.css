@@ -1,8 +1,5 @@
 body{
-	height:100%;
-	background-image:url("https://drive.google.com/thumbnail?id=0BwOF3oVkUv8wcVdUNFQ0WEZNaGM&authuser=0&v=1418089495298&sz=w1342-h537");
-	background-size:100% 100%;
-	background-repeat:no-repeat;
+	background:#ffccee;
 }
 h1{
 	font-family:"Times New Roman",serif;
